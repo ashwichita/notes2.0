@@ -1,0 +1,53 @@
+.notes {
+  height: 70vh;
+  width: 100vw;
+  max-width: 1000px;
+  background: #f8f8f8;
+  box-shadow: 3px 3px 10px #b2b2b2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.notes::-webkit-scrollbar{
+  display: none;
+}
+
+.new-button {
+  background: #f1f1f1;
+  width: 70px;
+  height: 70px;
+  margin-top: auto;
+  margin-bottom: 20px;
+  transition: 0.1s ease-out;
+}
+
+.new-button:hover {
+  cursor: pointer;
+  transform: scale(1.05) rotate(-180deg);
+}
+
+.modal {
+  position: absolute;
+  height: 70vh;
+  width: 100vw;
+  max-width: 1000px;
+  left: 50%;
+  top: 50%;
+    transform: translate(-50%, -50%);
+    background: #f8f8f8;
+
+  
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

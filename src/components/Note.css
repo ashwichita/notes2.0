@@ -1,0 +1,40 @@
+.note {
+  min-height: 70px;
+  width: 95%;
+  background: #fefefe;
+  border-radius: 10px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.note-text {
+  padding-left: 20px;
+  width: 80%;
+  height: 70px;
+}
+
+.note-text h2 {
+  line-height: 0;
+}
+
+.note-text p{
+    height: 20px;
+    overflow: hidden;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 90%;
+  transition: 0.1s ease-out;
+}
+
+.icon:hover {
+    transform: scale(.95) rotate(180deg);
+    cursor: pointer;
+}
